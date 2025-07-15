@@ -1,0 +1,20 @@
+config MCUX_COMPONENT_WIFI_INFINEON
+    bool "Infineon Wi-Fi Middleware"
+    default n
+
+    imply MCUX_COMPONENT_WIFI_INFINEON.whd-expansion
+    imply MCUX_COMPONENT_WIFI_INFINEON.wifi-resources
+    imply MCUX_COMPONENT_WIFI_INFINEON.wifi-connection-manager
+
+if MCUX_COMPONENT_WIFI_INFINEON
+
+config MCUX_COMPONENT_WIFI_INFINEON.whd-expansion
+    bool
+
+config MCUX_COMPONENT_WIFI_INFINEON.wifi-resources
+    bool
+
+config MCUX_COMPONENT_WIFI_INFINEON.wifi-connection-manager
+    bool
+
+endif

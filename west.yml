@@ -1,0 +1,22 @@
+manifest:
+  remotes:
+  - name: infineon
+    url-base: https://github.com/infineon
+
+  defaults:
+    remote: infineon
+
+  projects:
+
+  # Infineon middleware libraries from public GitHub
+  - name: whd-expansion
+    remote: infineon
+    revision: release-v1.0.10
+
+  - name: wifi-resources
+    remote: infineon
+    revision: release-v2.0.0
+
+  - name: wifi-connection-manager
+    remote: infineon
+    revision: release-v3.7.0
