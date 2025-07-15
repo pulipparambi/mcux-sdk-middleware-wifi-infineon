@@ -1,0 +1,9 @@
+manifest:
+  projects:
+  # Infineon middleware integration in MCUXpresso SDK from internal GitLab
+  - name: mcux-sdk-middleware-wifi-infineon
+    url: https://github.com/pulipparambi/mcux-sdk-middleware-wifi-infineon
+    path: ../wifi_infineon
+    revision: main
+    import:
+      path-prefix: mcuxsdk/middleware/wifi_infineon
