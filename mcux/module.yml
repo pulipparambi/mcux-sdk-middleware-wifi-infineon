@@ -1,0 +1,4 @@
+name: wifi_infineon
+build:
+  cmake: .
+  kconfig: Kconfig
