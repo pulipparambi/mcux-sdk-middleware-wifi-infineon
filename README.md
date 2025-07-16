@@ -7,7 +7,7 @@ Integration of CYW55513 support in MCUXpresso SDK
 
 2. Add the wifi_infineon submanifest and fetch libraries:
         cd ~/mcuxpresso-sdk/manifests/submanifests/middleware/
-        wget https://gitlab.intra.infineon.com/rpul/mcux-sdk-middleware-wifi-infineon/-/raw/main/submanifest/wifi_infineon.yml
+        wget https://github.com/pulipparambi/mcux-sdk-middleware-wifi-infineon/-/raw/main/submanifest/wifi_infineon.yml
         west update
 
 3. Write a sample app for compiling and testing.
