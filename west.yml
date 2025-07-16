@@ -11,7 +11,7 @@ manifest:
   # Infineon middleware libraries from public GitHub
   - name: whd-expansion
     remote: infineon
-    revision: release-v1.0.10
+    revision: 54deecc6e51e661cff9e778752d9cf18e90607d5
 
   - name: wifi-resources
     remote: infineon
