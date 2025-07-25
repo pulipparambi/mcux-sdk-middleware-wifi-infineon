@@ -6,6 +6,12 @@ config MCUX_COMPONENT_WIFI_INFINEON
     imply MCUX_COMPONENT_WIFI_INFINEON.wifi-resources
     imply MCUX_COMPONENT_WIFI_INFINEON.wifi-connection-manager
 
+config USE_WIFI_MFG_TEST
+    bool "Enable wifi-mfg-test"
+    default n
+
+    imply USE_WIFI_MFG_TEST.wifi-mfg-test-app
+
 if MCUX_COMPONENT_WIFI_INFINEON
 
 config MCUX_COMPONENT_WIFI_INFINEON.whd-expansion
