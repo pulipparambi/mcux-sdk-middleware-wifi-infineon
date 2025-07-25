@@ -11,3 +11,4 @@ Integration of CYW55513 support in MCUXpresso SDK
         west update
 
 3. Write a sample app for compiling and testing.
+4. If wifi-mfg-test-app needs to be compiled, please enable CONFIG_USE_WIFI_MFG_TEST=y inside example application code.
