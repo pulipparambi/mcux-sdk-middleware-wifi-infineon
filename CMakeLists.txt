@@ -9,6 +9,10 @@ if(CONFIG_MCUX_COMPONENT_WIFI_INFINEON)
     include(cmake/wifi-resources.cmake)
     include(cmake/wifi-connection-manager.cmake)
 
+if(CONFIG_USE_WIFI_MFG_TEST)
+   include(cmake/wifi-mfg-test-app.cmake)
+endif()
+
 target_compile_definitions(${MCUX_SDK_PROJECT_NAME} PUBLIC
 	CYBSP_WIFI_CAPABLE
 	CY_WIFI_COUNTRY=WHD_COUNTRY_UNITED_STATES
